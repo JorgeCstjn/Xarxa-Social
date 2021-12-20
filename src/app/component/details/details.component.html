@@ -1,0 +1,27 @@
+<div class="container ">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card card-margin">
+        <div class="card-header no-border">
+          <h5 class="card-title">DATOS PERSONALES</h5>
+          <button (click)="volver()" class="btn btn-sm btn-danger">
+            VOLVER
+          </button>
+        </div>
+        <div class="card-body pt-0">
+          <div class="widget-49">
+            <ul class="widget-49-meeting-points">
+              <li class="widget-49-meeting-item"><span>NAME: {{usuario.fname}}</span></li>
+              <li class="widget-49-meeting-item"><span>LAST NAME: {{usuario.lname}}</span></li>
+              <li class="widget-49-meeting-item"><span>DATE: {{usuario.year}}</span></li>
+              <li class="widget-49-meeting-item"><span>MAIL: {{usuario.mail}}</span></li>
+              <li class="widget-49-meeting-item"><span>DESCRIPTION: {{usuario.descripcion}}</span></li>
+              <li class="widget-49-meeting-item"><span>PASSWORD: {{usuario.pssw}}</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

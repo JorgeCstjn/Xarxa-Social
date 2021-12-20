@@ -1,0 +1,75 @@
+<div class="card">
+  <button (click)="home()" class="btn btn-sm btn-danger">Home</button>
+    <h4 class="card-header">Register</h4>
+    <div class="card-body">
+      <form [formGroup]="user" (ngSubmit)="onSubmit()">
+          <table>
+            <tr>
+    
+            <label>
+              <span>Nombre
+              </span>
+              <input
+              class="form-control"
+                type="text"
+                placeholder="Nombre"
+                formControlName="fname"
+                [(ngModel)]="usuario.fname">
+
+            </label>
+          </tr><tr>        
+            <label>
+                <span>Apellido</span>
+                <input
+                class="form-control"
+                  type="text"
+                  placeholder="Apellido"
+                  formControlName="lname"
+                  [(ngModel)]="usuario.lname">
+              </label>
+            </tr><tr> 
+              <label>
+                <span>Email</span>
+                <input
+                class="form-control"
+                  type="text"
+                  placeholder="email@email.com"
+                  formControlName="mail"
+                  [(ngModel)]="usuario.mail">
+              </label>
+            </tr><tr>
+              <label>
+                <span>Fecha</span>
+                <input
+                class="form-control"
+                  type="date"
+                  formControlName="year"
+                  [(ngModel)]="usuario.year">
+              </label>
+            </tr><tr>
+              <label>
+                <span>Descripción</span>
+                <input
+                class="form-control"
+                  type="are"
+                  placeholder="Descripción"
+                  formControlName="descripcion"  
+                  [(ngModel)]="usuario.descripcion">
+              </label>
+            </tr><tr>
+              <label>
+                <span>Contraseña</span>
+                <input
+                class="form-control"
+                  type="text"
+                  placeholder="********"
+                  formControlName="pssw"
+                  [(ngModel)]="usuario.pssw">
+              </label>
+            </tr><tr>
+            <button class="btn btn-link" type="submit" >Registrarse</button>
+         </tr> 
+        </table>
+          </form>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+  
+    background: -webkit-linear-gradient(to top, #16222A , #3A6073); 
+    background: linear-gradient(90deg, #16222A , #3A6073); 
+  }
+
+  td{
+      color: white !important;
+    
+    
+  }
+  th{
+      color: white;
+  }
+  h1{
+      color: white;
+      text-align: center;
+  }
+  a{
+    margin-left: 105rem;
+  }
+  form{
+    background: -webkit-linear-gradient(to top, #16222A , #3A6073); 
+    background: linear-gradient(90deg, #16222A , #3A6073); 
+    display: flex;
+    justify-content: center;
+  }
+  div{
+    background: -webkit-linear-gradient(to top, #16222A , #3A6073); 
+    background: linear-gradient(90deg, #16222A , #3A6073); 
+  }
+  html{
+      color: white;
+  }
+  h5{
+      color: white;
+  }
+  span{
+      color: white;
+  }
+  button{
+    margin-left: 105rem;
+    margin: auto;
+  }
+
+
+
+  
+
+
+
